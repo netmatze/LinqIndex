@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LinqIndex.IndexBuilding.FastTree&lt;TInnerKey, TInnerElement&gt;">
+    <Position X="3.5" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIkAGApACAAAQAAAAIAAEAAEIAAAAABAAAACEAAA=</HashCode>
+      <FileName>IndexBuilding\FastTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinqIndex.IndexBuilding.FastTreeNode&lt;TInnerKey, TInnerElement&gt;">
+    <Position X="6.75" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAABAAQAAAgEAAEIABAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>IndexBuilding\FastTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinqIndex.IndexBuilding.EqualIndex&lt;TKey, TElement&gt;">
+    <Position X="0.5" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABBACAAAAAAEAAEAAAAEAAAAAAARAAA=</HashCode>
+      <FileName>IndexBuilding\EqualIndex.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LinqIndex.IndexBuilding.Index&lt;TKey, TElement&gt;">
+    <Position X="0.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAABAAABAAmAAAAAAAAAEAAAAEAAAAAAAQAAA=</HashCode>
+      <FileName>IndexBuilding\Index.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LinqIndex.IndexBuilding.IndexDefinition&lt;TSource&gt;">
+    <Position X="6.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAgAAAAAAAAAAAAAAAiAIAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>IndexBuilding\IndexDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinqIndex.IndexBuilding.IndexPartDefinition&lt;TSource, TKey&gt;">
+    <Position X="9.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAgAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIACAA=</HashCode>
+      <FileName>IndexBuilding\IndexPartDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinqIndex.IndexBuilding.IndexFinder">
+    <Position X="5.5" Y="9" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndexBuilding\IndexFinder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LinqIndex.IndexBuilding.WhereExpressionBuilder">
+    <Position X="8.5" Y="9" Width="4" />
+    <TypeIdentifier>
+      <HashCode>IIAIAAAAAAAAAAAAwAAAAAAAAEAAAAAgAAIAAAAAAAA=</HashCode>
+      <FileName>IndexBuilding\WhereExpressionBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="LinqIndex.IndexBuilding.IIndex&lt;TKey, TElement&gt;">
+    <Position X="1.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>IndexBuilding\IIndex.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LinqIndex.IndexBuilding.IGroupingIndex&lt;TKey, TElement&gt;" Collapsed="true">
+    <Position X="1.25" Y="2.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>IndexBuilding\IGroupingIndex.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="LinqIndex.IndexBuilding.IndexType">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IndexBuilding\IndexType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LinqIndex.IndexBuilding.LogicalEnum">
+    <Position X="3.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAQBAACA=</HashCode>
+      <FileName>IndexBuilding\LogicalEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
